@@ -39,7 +39,6 @@ function App() {
             <Route path='/:id' element={<UserPost isauth={isauth} setauth={setauth}  />}>Home</Route>
             <Route path="/type/:type" element={<CategoriesPost isauth={isauth} setauth={setauth} />} />
             <Route path="/type/:type" element={<CategoriesPost isauth={isauth} setauth={setauth} />} />
-
           </Routes>
         </Router>
     </div>
